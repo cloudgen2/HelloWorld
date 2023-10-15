@@ -11,8 +11,6 @@ build_sub(){
     # compile the program and output to the target directory
     gcc -Wall -Werror \
         src/main.c \
-        src/parent-path.c \
-        src/trim-quotes.c \
         -o ${TARGET_FILE} 2> $ERROR_LOG
 
     if [ $? -ne 0 ]; then
