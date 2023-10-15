@@ -1,0 +1,8 @@
+x86/
+src/x86
+src/src.vcxproj.user
+src/src.vcxproj.filters
+src/src.user
+src/src.filters
+target/
+.vs
